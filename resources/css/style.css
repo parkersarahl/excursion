@@ -1,16 +1,26 @@
 body {
     background-color: black;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
 }
 
 h1 {
     font-size: 50px;
     font-weight: normal;
-    color: white;
 }
 
 h1 + p {
     color:aquamarine;
     text-decoration: underline;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 42px;
+}
+
+h2 + p {
+    color: gray;
+    font-size: 21px
 }
